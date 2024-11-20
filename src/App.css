@@ -15,16 +15,27 @@ body {
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8))
             drop-shadow(0 0 20px rgba(0, 0, 0, 0.6))
             drop-shadow(0 0 30px rgba(0, 0, 0, 0.4)); /* Glowing shadow */
-    animation: float 6s ease-in-out infinite;
+    animation: float 10s ease-in-out infinite;
+    animation: rotate  10s ease-in-out infinite ;
+  }
+
+  @keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(100) ;
+    }
   }
   
+
   @keyframes float {
     0%,
     100% {
       transform: translateY(0px);
     }
     50% {
-      transform: translateY(-20px);
+      transform: translateY(200px);
     }
   }
   
