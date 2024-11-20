@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 
-
 const App = () => {
   const [triangles, setTriangles] = useState([]);
 
@@ -24,8 +23,7 @@ const App = () => {
 
   return (
     <div>
-
-{triangles.map((triangle, index) => (
+      {triangles.map((triangle, index) => (
         <div
           key={index}
           className="triangle"
@@ -46,5 +44,4 @@ const App = () => {
     </div>
   );
 }
-
 export default App;

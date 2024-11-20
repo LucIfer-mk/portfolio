@@ -4,7 +4,6 @@ body {
     background-color: black;
     overflow: hidden;
   }
-  
   .triangle {
     position: absolute;
     width: 0;
@@ -18,7 +17,6 @@ body {
     animation: float 10s ease-in-out infinite;
     animation: rotate  10s ease-in-out infinite ;
   }
-
   @keyframes rotate{
     0%{
         transform: rotate(0);
@@ -27,8 +25,6 @@ body {
         transform: rotate(100) ;
     }
   }
-  
-
   @keyframes float {
     0%,
     100% {
