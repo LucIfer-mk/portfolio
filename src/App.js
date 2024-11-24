@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 
+
 const App = () => {
   const [triangles, setTriangles] = useState([]);
 
   useEffect(() => {
     const generateTriangles = () => {
       const trianglesArray = [];
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 70; i++) {
         trianglesArray.push({
           left: Math.random() * 100 + "vw",
           top: Math.random() * 100 + "vh",
@@ -22,6 +23,7 @@ const App = () => {
   }, []);
 
   return (
+    
     <div>
       {triangles.map((triangle, index) => (
         <div
@@ -40,6 +42,9 @@ const App = () => {
           }}
         ></div>
       ))}
+        <div>
+      
+        </div>
 
     </div>
   );
