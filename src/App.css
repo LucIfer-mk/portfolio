@@ -15,7 +15,7 @@ body {
             drop-shadow(0 0 20px rgba(0, 0, 0, 0.6))
             drop-shadow(0 0 30px rgba(0, 0, 0, 0.4)); /* Glowing shadow */
     animation: float 10s ease-in-out infinite;
-    animation: rotate  15s ease-in-out infinite 15s ;
+    animation: rotate  ease-in-out infinite;
   }
   @keyframes rotate{
     0%{

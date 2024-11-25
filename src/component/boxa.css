@@ -1,0 +1,12 @@
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.introboxs{
+    padding: 10px;
+    height: 20px;
+    width: 500px;
+    background: blue;
+}

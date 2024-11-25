@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
+import Boxa from "./component/Boxa";
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
   return (
     
     <div>
+      <Boxa/>
       {triangles.map((triangle, index) => (
         <div
           key={index}
@@ -42,10 +44,6 @@ const App = () => {
           }}
         ></div>
       ))}
-        <div>
-      
-        </div>
-
     </div>
   );
 }
